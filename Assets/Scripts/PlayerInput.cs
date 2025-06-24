@@ -1,11 +1,12 @@
 using System;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.InputSystem.EnhancedTouch;
 using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
 
 public class PlayerInput : MonoBehaviour
 {
-    public Action FingerDown { get; set; } 
+    public Action FingerDown { get; set; }
 
     private void OnEnable()
     {
