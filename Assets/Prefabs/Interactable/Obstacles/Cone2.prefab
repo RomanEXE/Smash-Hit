@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 965957935476676775}
   - component: {fileID: 6522124218940157656}
   - component: {fileID: 6579750561367353409}
+  - component: {fileID: 145163557752481705}
   m_Layer: 0
   m_Name: Cone_cell
   m_TagString: Untagged
@@ -102,7 +103,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -134,6 +135,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &145163557752481705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477201904872041478}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: 0.00069148, y: 0.004125211, z: 0.0013446149}
 --- !u!1 &1082515431331584305
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,6 +169,7 @@ GameObject:
   - component: {fileID: 5574419060962339945}
   - component: {fileID: 1072586656022056546}
   - component: {fileID: 4838787070005077081}
+  - component: {fileID: 2640461087139557416}
   m_Layer: 0
   m_Name: Cone_cell.002_cell.003
   m_TagString: Untagged
@@ -236,7 +259,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -268,6 +291,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2640461087139557416
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082515431331584305}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: -0.00018747384, y: 0.00046818823, z: 0.00042132652}
 --- !u!1 &1483832546844006999
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,6 +325,7 @@ GameObject:
   - component: {fileID: 2518833067376427202}
   - component: {fileID: 4636295881788300649}
   - component: {fileID: 640228221428077169}
+  - component: {fileID: 5891414396342853819}
   m_Layer: 0
   m_Name: Cone_cell.002_cell.002
   m_TagString: Untagged
@@ -370,7 +415,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -402,6 +447,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5891414396342853819
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483832546844006999}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: 0.000888451, y: 0.00086062105, z: 0.0019993025}
 --- !u!1 &1541888064071326731
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,6 +481,7 @@ GameObject:
   - component: {fileID: 6503442597719221779}
   - component: {fileID: 2047716319979884255}
   - component: {fileID: 3826692035456858787}
+  - component: {fileID: 556070550899713544}
   m_Layer: 0
   m_Name: Cone_cell.002_cell
   m_TagString: Untagged
@@ -504,7 +571,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -536,6 +603,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &556070550899713544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541888064071326731}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: 0.0020778975, y: 0.00057972176, z: 0.0012813627}
 --- !u!1 &1977377272980831624
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +785,7 @@ GameObject:
   - component: {fileID: 7203141412870553498}
   - component: {fileID: 7366189596579464797}
   - component: {fileID: 2165988784670764987}
+  - component: {fileID: 7073898983528292964}
   m_Layer: 0
   m_Name: Cone_cell.003_cell.004
   m_TagString: Untagged
@@ -786,7 +875,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -818,6 +907,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7073898983528292964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2949040201706808961}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: 0.00054219505, y: 0.00050576276, z: 0.0013177521}
 --- !u!1 &3026395969482354357
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,6 +941,7 @@ GameObject:
   - component: {fileID: 3887212570858204807}
   - component: {fileID: 392422337227293467}
   - component: {fileID: 4544891226115788010}
+  - component: {fileID: 4951765943042784492}
   m_Layer: 0
   m_Name: Cone_cell.002_cell.005
   m_TagString: Untagged
@@ -920,7 +1031,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -952,6 +1063,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4951765943042784492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3026395969482354357}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: 0.0005331411, y: 0.00012120183, z: -0.0004299572}
 --- !u!1 &3550638986095952242
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,6 +1097,7 @@ GameObject:
   - component: {fileID: 753762828797727923}
   - component: {fileID: 1940072704968268229}
   - component: {fileID: 8923336022457553369}
+  - component: {fileID: 6131128450178901189}
   m_Layer: 0
   m_Name: Cone_cell.002_cell.007
   m_TagString: Untagged
@@ -1054,7 +1187,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -1086,6 +1219,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6131128450178901189
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550638986095952242}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: 0.0007100804, y: 0.00033026998, z: 0.001946934}
 --- !u!1 &3890248789354517814
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,6 +1253,7 @@ GameObject:
   - component: {fileID: 8497041185333632661}
   - component: {fileID: 5360155638154879760}
   - component: {fileID: 5630645759867189456}
+  - component: {fileID: 3461765569739226979}
   m_Layer: 0
   m_Name: Cone_cell.003_cell.002
   m_TagString: Untagged
@@ -1188,7 +1343,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -1220,6 +1375,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3461765569739226979
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890248789354517814}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: -0.0007060445, y: 0.00008633766, z: 0.001014444}
 --- !u!1 &4548454133391243694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,6 +1409,7 @@ GameObject:
   - component: {fileID: 2255297777639278588}
   - component: {fileID: 2334035178950509529}
   - component: {fileID: 3811071567978324858}
+  - component: {fileID: 1163296499865780365}
   m_Layer: 0
   m_Name: Cone_cell.003_cell.001
   m_TagString: Untagged
@@ -1322,7 +1499,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -1354,6 +1531,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1163296499865780365
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548454133391243694}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: -0.0001119026, y: 0.0012440152, z: 0.0016547992}
 --- !u!1 &5634302464278317326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,6 +1565,7 @@ GameObject:
   - component: {fileID: 7022947456824904728}
   - component: {fileID: 5263560984248837586}
   - component: {fileID: 480152579208274841}
+  - component: {fileID: 8140609579359673601}
   m_Layer: 0
   m_Name: Cone_cell.001
   m_TagString: Untagged
@@ -1456,7 +1655,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -1488,6 +1687,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8140609579359673601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5634302464278317326}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: -0.0036329164, y: 0.00050409033, z: 0.0012913824}
 --- !u!1 &5689807305833626246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,6 +1721,7 @@ GameObject:
   - component: {fileID: 7359176754513136127}
   - component: {fileID: 314368201174940545}
   - component: {fileID: 2267716298011604849}
+  - component: {fileID: 3686133800115687246}
   m_Layer: 0
   m_Name: Cone_cell.002_cell.004
   m_TagString: Untagged
@@ -1590,7 +1811,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -1622,6 +1843,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3686133800115687246
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5689807305833626246}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: -0.00033751852, y: -0.00076567277, z: -0.0008929761}
 --- !u!1 &6243579824524702508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1877,7 @@ GameObject:
   - component: {fileID: 7787265039887518419}
   - component: {fileID: 7441500769215628505}
   - component: {fileID: 4419999349493539529}
+  - component: {fileID: 4935489569601742799}
   m_Layer: 0
   m_Name: Cone_cell.003_cell.005
   m_TagString: Untagged
@@ -1724,7 +1967,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -1756,6 +1999,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4935489569601742799
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6243579824524702508}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: -0.0007337949, y: -0.00081283913, z: -0.00025448547}
 --- !u!1 &6292535464045260564
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,6 +2033,7 @@ GameObject:
   - component: {fileID: 858076831170530513}
   - component: {fileID: 8198780109693744537}
   - component: {fileID: 1835089205065352522}
+  - component: {fileID: 187224100762567974}
   m_Layer: 0
   m_Name: Cone_cell.003_cell.006
   m_TagString: Untagged
@@ -1858,7 +2123,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -1890,6 +2155,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &187224100762567974
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292535464045260564}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: -0.0005970708, y: 0.0010893181, z: -0.00008763325}
 --- !u!1 &6718534594811202906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1903,6 +2189,7 @@ GameObject:
   - component: {fileID: 480712655666004465}
   - component: {fileID: 6616015303538073344}
   - component: {fileID: 7356787592520832679}
+  - component: {fileID: 8225575460599701020}
   m_Layer: 0
   m_Name: Cone_cell.002_cell.001
   m_TagString: Untagged
@@ -1992,7 +2279,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -2024,6 +2311,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8225575460599701020
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6718534594811202906}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: 0.001195753, y: -0.0006753919, z: 0.0015391677}
 --- !u!1 &7464916179470892019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,6 +2394,7 @@ GameObject:
   - component: {fileID: 4204390513356233230}
   - component: {fileID: 6266673169655625216}
   - component: {fileID: 5593665628228866391}
+  - component: {fileID: 6061179180535634058}
   m_Layer: 0
   m_Name: Cone_cell.003_cell.007
   m_TagString: Untagged
@@ -2175,7 +2484,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -2207,6 +2516,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6061179180535634058
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7512267691085537999}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: -0.00011066988, y: 0.0015878603, z: -0.00028218975}
 --- !u!1 &8006981735203633448
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,6 +2550,7 @@ GameObject:
   - component: {fileID: 6619286573645706289}
   - component: {fileID: 4468513981788247160}
   - component: {fileID: 6347780043573157853}
+  - component: {fileID: 3486554622171811081}
   m_Layer: 0
   m_Name: Cone_cell.002_cell.006
   m_TagString: Untagged
@@ -2309,7 +2640,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -2341,6 +2672,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3486554622171811081
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8006981735203633448}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: 0.00014801999, y: 0.001309474, z: -0.000030309422}
 --- !u!1 &8664725666716434190
 GameObject:
   m_ObjectHideFlags: 0
@@ -2387,6 +2739,7 @@ GameObject:
   - component: {fileID: 7080362090497117997}
   - component: {fileID: 5775700159568636903}
   - component: {fileID: 6741936734815545542}
+  - component: {fileID: 8145322053693602052}
   m_Layer: 0
   m_Name: Cone_cell.003_cell.003
   m_TagString: Untagged
@@ -2476,7 +2829,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -2508,6 +2861,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8145322053693602052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8774492802459290288}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: 0.0012776267, y: -0.00050390395, z: 0.00017628653}
 --- !u!1 &9093531510141206176
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,6 +2895,7 @@ GameObject:
   - component: {fileID: 3700398405095915358}
   - component: {fileID: 466484594407417063}
   - component: {fileID: 4662351619454184676}
+  - component: {fileID: 4946297153517547221}
   m_Layer: 0
   m_Name: Cone_cell.003_cell
   m_TagString: Untagged
@@ -2610,7 +2985,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -2642,3 +3017,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4946297153517547221
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9093531510141206176}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005415093, y: 0.005415093, z: 0.005415093}
+  m_Center: {x: 0.00060452754, y: 0.00074393314, z: 0.0047776895}
