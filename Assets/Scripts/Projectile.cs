@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -14,10 +13,10 @@ namespace DefaultNamespace
             _pool = pool;
         }
         
-        public void Spawn()
+        public void Spawn(Vector3 direction)
         {
             rigidbody.isKinematic = false;
-            rigidbody.AddForce(Vector3.forward * force);
+            rigidbody.AddForce(direction * force);
         }
 
         public void Despawn()

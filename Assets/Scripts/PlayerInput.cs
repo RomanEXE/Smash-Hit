@@ -1,12 +1,11 @@
 using System;
-using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.InputSystem.EnhancedTouch;
 using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
 
 public class PlayerInput : MonoBehaviour
 {
-    public Action FingerDown { get; set; }
+    public event Action<Vector2> FingerDown;
 
     private void OnEnable()
     {
@@ -25,13 +24,6 @@ public class PlayerInput : MonoBehaviour
 
     private void OnFingerDown(Finger obj)
     {
-        FingerDown?.Invoke();
-        print("click");
-    }
-
-    public Vector2 GetTouchWorldPosition()
-    {
-        Vector2 screenPosition = EnhancedTouch.Touch.activeTouches[0].screenPosition;
-        return Camera.main.ScreenToWorldPoint(screenPosition);
+        FingerDown?.Invoke(obj.screenPosition);
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -6,20 +7,30 @@ namespace DefaultNamespace
 {
     public class ProjectilePool : MonoBehaviour
     {
-        [SerializeField] private Queue<Projectile> pool = new Queue<Projectile>();
-        [SerializeField] private Projectile prefab;
+        public static ProjectilePool Instance { get; set; }
         
-        public void Spawn(Vector3 spawnPosition)
+        private Queue<Projectile> _pool = new Queue<Projectile>();
+        [SerializeField] private Projectile prefab;
+
+        private void Awake()
         {
-            if (pool.Count == 0)
+            if (Instance == null)
+            {
+                Instance = this;
+            }
+        }
+
+        public void Spawn(Vector3 spawnPosition, Vector3 direction)
+        {
+            if (_pool.Count == 0)
             {
                 Create();
             }
 
-            Projectile spawnedProjectile = pool.Dequeue();
+            Projectile spawnedProjectile = _pool.Dequeue();
             spawnedProjectile.transform.position = spawnPosition;
             spawnedProjectile.gameObject.SetActive(true);
-            spawnedProjectile.Spawn();
+            spawnedProjectile.Spawn(direction);
         }
 
         private void Create()
@@ -27,12 +38,12 @@ namespace DefaultNamespace
             Projectile spawnedPrefab = Instantiate(prefab);
             spawnedPrefab.gameObject.SetActive(false);
             spawnedPrefab.Init(this);
-            pool.Enqueue(spawnedPrefab);
+            _pool.Enqueue(spawnedPrefab);
         }
 
         public void Despawn(Projectile projectile)
         {
-            pool.Enqueue(projectile);
+            _pool.Enqueue(projectile);
             projectile.gameObject.SetActive(false);
         }
     }
