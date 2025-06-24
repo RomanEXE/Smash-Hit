@@ -770,6 +770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b653de8abb4df899af3fd1b71d98b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  root: {fileID: 8664725666716434190}
   body: {fileID: 4335102179490620499}
   cells: {fileID: 5965112752280993594}
   additionalProjectilesAmount: 3

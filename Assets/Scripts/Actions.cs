@@ -5,5 +5,6 @@ namespace DefaultNamespace
     public static class Actions
     {
         public static Action<int> BonusObstacleDestroyed;
+        public static Action PlayerDead;
     }
 }
