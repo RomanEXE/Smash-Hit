@@ -6,6 +6,7 @@ namespace Projectiles
     public class ProjectileShooter : MonoBehaviour
     {
         [SerializeField] private PlayerInput input;
+        [SerializeField] private ProjectilesClip clip;
         
         private void OnEnable()
         {
@@ -19,6 +20,9 @@ namespace Projectiles
 
         private void Shoot(Vector2 screenPosition)
         {
+            if (!clip.TryRemove(1))
+                return;
+            
             Ray ray = Camera.main.ScreenPointToRay(screenPosition);
             Vector3 direction = ray.direction.normalized;
             ProjectilePool.Instance.Spawn(transform.position, direction);
