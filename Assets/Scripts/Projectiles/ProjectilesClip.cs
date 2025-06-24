@@ -1,4 +1,4 @@
-using System;
+using DefaultNamespace;
 using UnityEngine;
 
 namespace Projectiles
@@ -6,6 +6,16 @@ namespace Projectiles
     public class ProjectilesClip : MonoBehaviour
     {
         public ReactiveProperty<int> CurrentAmount { get; private set; } = new ReactiveProperty<int>();
+
+        private void OnEnable()
+        {
+            Actions.BonusObstacleDestroyed += Add;
+        }
+
+        private void OnDisable()
+        {
+            Actions.BonusObstacleDestroyed -= Add;
+        }
 
         private void Start()
         {

@@ -8,7 +8,7 @@ namespace Items
         [SerializeField] private Transform body;
         [SerializeField] private Transform cells;
         
-        public void Interact()
+        public virtual void Interact()
         {
             body.gameObject.SetActive(false);
             cells.gameObject.SetActive(true);
