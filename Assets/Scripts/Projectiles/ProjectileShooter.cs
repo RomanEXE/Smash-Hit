@@ -1,6 +1,7 @@
+using Player;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Projectiles
 {
     public class ProjectileShooter : MonoBehaviour
     {

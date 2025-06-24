@@ -1,7 +1,7 @@
 using Interfaces;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Items
 {
     public class Obstacle : MonoBehaviour, IInteractable
     {

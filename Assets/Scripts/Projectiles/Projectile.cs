@@ -1,7 +1,7 @@
 using Interfaces;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Projectiles
 {
     public class Projectile : MonoBehaviour
     {
@@ -20,7 +20,7 @@ namespace DefaultNamespace
             rigidbody.AddForce(direction * force);
         }
 
-        public void Despawn()
+        private void Despawn()
         {
             rigidbody.isKinematic = true;
             _pool.Despawn(this);
