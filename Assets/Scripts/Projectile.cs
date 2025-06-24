@@ -1,3 +1,4 @@
+using Interfaces;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -27,6 +28,11 @@ namespace DefaultNamespace
 
         private void OnCollisionEnter(Collision other)
         {
+            if (other.transform.CompareTag(Tags.INTERACTABLE))
+            {
+                other.transform.GetComponent<IInteractable>().Interact();
+            }
+            
             Despawn();
         }
     }
