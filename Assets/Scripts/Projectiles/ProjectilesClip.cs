@@ -29,10 +29,16 @@ namespace Projectiles
 
         public bool TryRemove(int amount)
         {
-            if (CurrentAmount.Value - amount >= 0)
+            if (CurrentAmount.Value - amount > 0)
             {
                 CurrentAmount.Value -= amount;
                 return true;
+            }
+
+            if (CurrentAmount.Value - amount <= 0)
+            {
+                CurrentAmount.Value -= amount;
+                Actions.PlayerDead?.Invoke();
             }
 
             return false;
