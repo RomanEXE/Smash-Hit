@@ -11,7 +11,6 @@ namespace Player
 
         private void OnEnable()
         {
-            TouchSimulation.Enable();
             EnhancedTouchSupport.Enable();
             EnhancedTouch.Touch.onFingerDown += OnFingerDown;
         }
@@ -20,7 +19,6 @@ namespace Player
         {
             EnhancedTouch.Touch.onFingerDown -= OnFingerDown;
         
-            TouchSimulation.Disable();
             EnhancedTouchSupport.Disable();
         }
 

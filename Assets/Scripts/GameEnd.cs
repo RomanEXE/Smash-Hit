@@ -8,6 +8,7 @@ namespace DefaultNamespace
     {
         [SerializeField] private PlayerMovement movement;
         [SerializeField] private ProjectileShooter shooter;
+        [SerializeField] private PlayerInput input;
         
         private void OnEnable()
         {
@@ -25,6 +26,7 @@ namespace DefaultNamespace
         {
             movement.enabled = false;
             shooter.enabled = false;
+            input.enabled = false;
         }
     }
 }
