@@ -28,7 +28,6 @@ namespace Projectiles
                 for (int i = 0; i < DespawnTimers.Count; i++)
                 {
                     DespawnTimers[i].Update();
-                    print("Update");
                 }
             }
         }
@@ -62,9 +61,7 @@ namespace Projectiles
 
         public void Despawn(Projectile projectile, float time)
         {
-            print("Despawn with delay");
             DespawnTimers.Add(new DespawnTimer(time, projectile));
-            print(DespawnTimers.Count);
         }
     }
 }

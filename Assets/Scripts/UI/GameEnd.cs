@@ -5,7 +5,7 @@ using Utils;
 
 namespace UI
 {
-    public class GameEndUI : MonoBehaviour
+    public class GameEnd : MonoBehaviour
     {
         [SerializeField] private PlayerMovement movement;
         [SerializeField] private ProjectileShooter shooter;
