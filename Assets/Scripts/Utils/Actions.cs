@@ -1,6 +1,6 @@
 using System;
 
-namespace DefaultNamespace
+namespace Utils
 {
     public static class Actions
     {

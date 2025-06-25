@@ -1,10 +1,11 @@
 using Player;
 using Projectiles;
 using UnityEngine;
+using Utils;
 
-namespace DefaultNamespace
+namespace UI
 {
-    public class GameEnd : MonoBehaviour
+    public class GameEndUI : MonoBehaviour
     {
         [SerializeField] private PlayerMovement movement;
         [SerializeField] private ProjectileShooter shooter;
