@@ -9,22 +9,18 @@ namespace Projectiles
         [SerializeField] private float force;
         [SerializeField] private Rigidbody rigidbody;
         private ProjectilePool _pool;
-
-        public void Init(ProjectilePool pool)
-        {
-            _pool = pool;
-        }
+        private bool _isFirstCollision = true;
         
         public void Spawn(Vector3 direction)
         {
             rigidbody.isKinematic = false;
             rigidbody.AddForce(direction * force);
+            _isFirstCollision = true;
         }
 
-        private void Despawn()
+        public void Despawn()
         {
             rigidbody.isKinematic = true;
-            _pool.Despawn(this);
         }
 
         private void OnCollisionEnter(Collision other)
@@ -33,8 +29,12 @@ namespace Projectiles
             {
                 other.transform.GetComponent<IInteractable>().Interact();
             }
-            
-            Despawn();
+
+            if (_isFirstCollision)
+            {
+                ProjectilePool.Instance.Despawn(this, 5f);
+                _isFirstCollision = false;
+            }
         }
     }
 }

@@ -1,20 +1,35 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Utils;
 
 namespace Projectiles
 {
     public class ProjectilePool : MonoBehaviour
     {
         public static ProjectilePool Instance { get; set; }
+        public readonly List<DespawnTimer> DespawnTimers = new List<DespawnTimer>();
         
-        private Queue<Projectile> _pool = new Queue<Projectile>();
         [SerializeField] private Projectile prefab;
+
+        private Queue<Projectile> _pool = new Queue<Projectile>();
 
         private void Awake()
         {
             if (Instance == null)
             {
                 Instance = this;
+            }
+        }
+
+        private void Update()
+        {
+            if (DespawnTimers.Count > 0)
+            {
+                for (int i = 0; i < DespawnTimers.Count; i++)
+                {
+                    DespawnTimers[i].Update();
+                    print("Update");
+                }
             }
         }
 
@@ -35,7 +50,6 @@ namespace Projectiles
         {
             Projectile spawnedPrefab = Instantiate(prefab);
             spawnedPrefab.gameObject.SetActive(false);
-            spawnedPrefab.Init(this);
             _pool.Enqueue(spawnedPrefab);
         }
 
@@ -43,6 +57,14 @@ namespace Projectiles
         {
             _pool.Enqueue(projectile);
             projectile.gameObject.SetActive(false);
+            projectile.Despawn();
+        }
+
+        public void Despawn(Projectile projectile, float time)
+        {
+            print("Despawn with delay");
+            DespawnTimers.Add(new DespawnTimer(time, projectile));
+            print(DespawnTimers.Count);
         }
     }
 }
